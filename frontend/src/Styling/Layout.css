@@ -1,0 +1,40 @@
+/* Layout Container */
+
+
+#layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%; /* Ensure the layout container takes full width */
+    height: 100%; /* Ensure the layout container takes full height */
+}
+
+/* Header Styles */
+#layout-container header {
+    background-color: #0078d7;
+    color: white;
+    padding: 5px 10px; /* Reduced padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9rem; /* Reduced font size */
+}
+
+/* Main Content Area */
+#layout-container main {
+    flex: 1; /* Allow main content to grow and take available space */
+    padding: 20px;
+    margin-top: 20px; /* Add margin to create space between header and content */
+}
+
+/* Footer Styles */
+#layout-container footer {
+    background-color: #0078d7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
